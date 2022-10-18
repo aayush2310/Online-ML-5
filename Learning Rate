@@ -1,0 +1,2 @@
+Learning Rate means how frequently am i going to train my model.
+I will not learn very fast as the model will forget the past and aslo not too slow.
