@@ -1,0 +1,29 @@
+The model will predict + learn
+
+How to implement?
+
+import numpy as np
+from sklearn import linear_model
+
+n_samples , n_features=1,500
+
+y=np.random.randn(n_samples)
+x=np.random.randn(n_samples,n_features)
+
+clf=linear_model.SGDRegressor()
+
+import time
+
+start_time=time.time()
+
+clf.partial_fit(x,y)
+
+elapsed_time=time.time()-start_tim
+
+print(elapsed_time)
+
+
+y=np.random.randn(n_samples)
+x=np.random.randn(n_samples,n_features)
+
+clf.patial_fit(x,y)
