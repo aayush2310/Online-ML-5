@@ -1,0 +1,2 @@
+When I have a huge dataset,then I cant train the model with that data at once so I train my model with mini batches of data.Using online learning,we can process this huge 
+data.We do it offline but the technique being used is online.
